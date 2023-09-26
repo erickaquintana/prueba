@@ -29,35 +29,45 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(355, 130)
+        Button1.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(128))
+        Button1.Font = New Font("Algerian", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Button1.ForeColor = Color.Blue
+        Button1.Location = New Point(319, 126)
         Button1.Name = "Button1"
-        Button1.Size = New Size(75, 23)
+        Button1.Size = New Size(145, 27)
         Button1.TabIndex = 0
         Button1.Text = "Ericka"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(355, 206)
+        Button2.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(128))
+        Button2.Font = New Font("Algerian", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Button2.ForeColor = Color.Blue
+        Button2.Location = New Point(319, 199)
         Button2.Name = "Button2"
-        Button2.Size = New Size(75, 23)
+        Button2.Size = New Size(145, 27)
         Button2.TabIndex = 1
         Button2.Text = "Luis David"
-        Button2.UseVisualStyleBackColor = True
+        Button2.UseVisualStyleBackColor = False
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(355, 275)
+        Button3.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(128))
+        Button3.Font = New Font("Algerian", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Button3.ForeColor = Color.Blue
+        Button3.Location = New Point(319, 258)
         Button3.Name = "Button3"
-        Button3.Size = New Size(75, 23)
+        Button3.Size = New Size(145, 33)
         Button3.TabIndex = 2
-        Button3.Text = "Button3"
-        Button3.UseVisualStyleBackColor = True
+        Button3.Text = "Trabajo"
+        Button3.UseVisualStyleBackColor = False
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
         ClientSize = New Size(800, 450)
         Controls.Add(Button3)
         Controls.Add(Button2)
